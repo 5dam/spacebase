@@ -56,9 +56,9 @@ const Header = () => {
                             Contact
                         </a>
                     </div>
-                    <div className='sm:flex items-center gap-2 hidden'>
-                        <a href="#">Login</a>
-                        <button className='px-4 py-2 rounded-full bg-purple-900'>Sign Up</button>
+                    <div className='sm:flex items-center gap-2 hidden font-semibold'>
+                        <a href="#">LOG IN</a>
+                        <button className='px-4 py-2 rounded-full bg-red-900 hover:bg-red-600'>Sign Up</button>
                     </div>
 
                     <div className="sm:hidden">
