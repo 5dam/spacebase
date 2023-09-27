@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import ImageGenerator from "./components/ImageGenerator"
 import VideoBackground from "./components/VideoBackground"
+import AISection from "./sections/AISection"
 import HeroSection from "./sections/HeroSection"
 
 
@@ -10,7 +11,8 @@ function App() {
       <div>
         <VideoBackground />
         <Header />
-        <HeroSection />
+        <HeroSection />        
+        <AISection />
       </div>     
     </>
   )

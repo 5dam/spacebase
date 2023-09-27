@@ -1,6 +1,5 @@
 import React from 'react'
 import default_img from '../assets/ai-default.jpg'
-import robot from '../assets/pngeggrobot.png'
 
 const ImageGenerator = () => {
   return (

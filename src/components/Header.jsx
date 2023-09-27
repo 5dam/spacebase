@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import space_rocket from '../assets/space_rocket.png'
+import { Link } from 'react-scroll'
 
 const Header = () => {
 
@@ -38,7 +39,7 @@ const Header = () => {
                 <div className="flex justify-between items-center">
                     <div className='flex items-center gap-2'>
                         <img src={space_rocket} className='animate-pulse h-15 w-12'/>
-                        <a href="#" className="text-3xl font-bold">
+                        <a href="#" className="text-3xl font-bold tracking-tighter">
                             SpaceBase
                         </a>
                     </div>
@@ -50,7 +51,9 @@ const Header = () => {
                             About
                         </a>
                         <a href="#" className="hover:text-gray-300">
-                            Services
+                            <Link to="AI-section" smooth={true} duration={500}>
+                                Services
+                            </Link>                          
                         </a>
                         <a href="#" className="hover:text-gray-300">
                             Contact
